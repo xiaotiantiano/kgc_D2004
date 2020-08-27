@@ -14,7 +14,7 @@ import java.util.List;
 public interface IAccountDao {//呵呵
 
     //查询所有账户信息
-    @Select("select * from account")
+    @Select("select * from account")//积极
     public List<Account> findAll();
 
     //保存账户信息
