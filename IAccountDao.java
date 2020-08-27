@@ -11,7 +11,7 @@ import java.util.List;
  * 账户的持久层接口
  */
 @Repository
-public interface IAccountDao {
+public interface IAccountDao {//呵呵
 
     //查询所有账户信息
     @Select("select * from account")
